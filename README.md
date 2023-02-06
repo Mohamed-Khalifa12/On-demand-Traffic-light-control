@@ -53,8 +53,8 @@ After the interruption happens, I should check the state of the main traffic lig
 
 **** Constraints: ****
 
-        The button must be pressed single press only.
-        If it is pressed double press it will do nothing and if it is pressed multiple times it will execute once.
+    The button must be pressed single press only.
+    If it is pressed double press it will do nothing and if it is pressed multiple times it will execute once.
 
 To have a close look to the design and tests, you can find it here: ==>
         https://drive.google.com/drive/folders/1P7X8-7Qbicj-71MIYPS4H7Xoeg7ysYnL?usp=share_link
