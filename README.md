@@ -22,28 +22,23 @@ points where the system stopes.
 
 **** What are the components to make that system? ****
 
-  • 2 Green, 2 Red and 2 Yellow LEDs.
+    • 2 Green, 2 Red and 2 Yellow LEDs.
+    • Button.
+    • Microcontroller (we use ATMEGA32).
   
-  • Button.
-  
-  • Microcontroller (we use ATMEGA32).
 
 **** system design: ****
 
 The On-demand Traffic light control System to be executed it has to be divided into layers to separate the hardware component
-
 from the software ones and to add a level of abstraction to make a clean code which will be readable and easily edited if needed.
-
 
 So, it consists of 4 parts:
 
-  • ECUAL
-  
-  • MCAL
-  
+  • ECUAL  
+  • MCAL 
   • Utilities
-  
   • Application
+  
   
 Each level of them contains some of driver which control the whole system.
 
@@ -54,6 +49,7 @@ Each level of them contains some of driver which control the whole system.
   Utilities ➔ Register address & Led control functions.
   
   Application ➔ final level of the system.
+  
   
 So, when the system starts it will loop forever for changing the state of main traffic lights from green, yellow, red and yellow 
 again and this will last until interruption happens.
@@ -67,5 +63,4 @@ The button must be pressed single press only.
 If it is pressed double press it will do nothing and if it is pressed multiple times it will execute once.
 
 To have a close look to the design and tests, you can find it here: ==>
-
 https://drive.google.com/drive/folders/1P7X8-7Qbicj-71MIYPS4H7Xoeg7ysYnL?usp=share_link
