@@ -32,6 +32,7 @@ The On-demand Traffic light control System to be executed it has to be divided i
 from the software ones and to add a level of abstraction to make a clean code which will be readable and easily edited if needed.
 
 So, it consists of 4 parts:
+
      • ECUAL  
      • MCAL 
      • Utilities
@@ -53,6 +54,7 @@ After the interruption happens, I should check the state of the main traffic lig
 **** Constraints: ****
 
 The button must be pressed single press only.
+
 If it is pressed double press it will do nothing and if it is pressed multiple times it will execute once.
 
 To have a close look to the design and tests, you can find it here: ==>
