@@ -34,21 +34,21 @@ from the software ones and to add a level of abstraction to make a clean code wh
 
 So, it consists of 4 parts:
 
-  • ECUAL  
-  • MCAL 
-  • Utilities
-  • Application
+     • ECUAL  
+     • MCAL 
+     • Utilities
+     • Application
   
   
 Each level of them contains some of driver which control the whole system.
 
-  ECUAL ➔ Led driver & Button driver.
+     ECUAL ➔ Led driver & Button driver.
   
-  MCAL ➔ DIO driver, Interrupt driver & Timer driver.
+     MCAL ➔ DIO driver, Interrupt driver & Timer driver.
   
-  Utilities ➔ Register address & Led control functions.
+     Utilities ➔ Register address & Led control functions.
   
-  Application ➔ final level of the system.
+     Application ➔ final level of the system.
   
   
 So, when the system starts it will loop forever for changing the state of main traffic lights from green, yellow, red and yellow 
