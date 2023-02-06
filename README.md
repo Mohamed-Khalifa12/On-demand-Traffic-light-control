@@ -1,6 +1,7 @@
 # On-demand-Traffic-light-control
 
 **** system description: ****
+
 On-demand Traffic light control is a project which control the traffic lights system but with a little bit difference from the 
 ordinary one.
 In this system The pedestrians have priority more than car’s one so whenever person needs to cross the road, it is available 
@@ -9,6 +10,7 @@ to enable him cross the road easily.
 Let’s describe the system in more details, First the main traffic light system operates frequently starts from green led which 
 will be turned on for 5 seconds, then yellow led start blinking for 5 seconds before the red one turns on for 5 seconds, finish 
 this period with yellow led blinking again, that is the normal operation of the traffic light.
+
 
 -- But what if the pedestrians need crossing the road?
 It will be available button for them, once this button is pressed the state of the traffic will change for them.
@@ -19,13 +21,16 @@ cross the road, and that is our goal.Then the yellow led blinking of both system
 points where the system stopes.
 
 **** What are the components to make that system? ****
+
   • 2 Green, 2 Red and 2 Yellow LEDs.
   • Button.
   • Microcontroller (we use ATMEGA32).
 
 **** system design: ****
+
 The On-demand Traffic light control System to be executed it has to be divided into layers to separate the hardware component 
 from the software ones and to add a level of abstraction to make a clean code which will be readable and easily edited if needed.
+
 
 So, it consists of 4 parts:
   • ECUAL
@@ -46,4 +51,5 @@ The button must be pressed single press only.
 If it is pressed double press it will do nothing and if it is pressed multiple times it will execute once.
 
 To have a close look to the design and tests, you can find it here: ==>
+
 https://drive.google.com/drive/folders/1P7X8-7Qbicj-71MIYPS4H7Xoeg7ysYnL?usp=share_link
